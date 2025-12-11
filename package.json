@@ -5,13 +5,13 @@
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
-    "web": "expo start --web"
+    "web": "expo start --web",
+    "build": "expo export --platform web"
   },
   "dependencies": {
     "@expo/vector-icons": "^15.0.3",
     "@react-navigation/native": "*",
     "@react-navigation/native-stack": "*",
-    "expo": "~54.0.27",
     "expo-image-picker": "~17.0.9",
     "expo-secure-store": "~15.0.8",
     "expo-status-bar": "~3.0.9",
@@ -23,5 +23,8 @@
     "react-native-screens": "~4.16.0",
     "react-native-web": "^0.21.2"
   },
-  "private": true
+  "private": true,
+  "devDependencies": {
+    "expo": "^54.0.27"
+  }
 }
